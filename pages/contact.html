@@ -4,8 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <script src="https://kit.fontawesome.com/f31a0ecc1e.js" crossorigin="anonymous"></script>
+
 </head>
-<body>
+
+<body class="grid-container">
+    <div class="logo-nav-container">
+        <header class="header">
+            <img src="/media/icon.jpg" alt="" srcset="">
+            <h1>Mi blog de prueba</h1>
+        </header>
+        <nav class="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/pages/about.html">Trabaja conmigo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/pages/blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="container-contact">
+        <div class="form-contacto">
+            <h1>Contactame aqui</h1>
+            <div class="form-items">
+                <div class="full-name">
+                    <div class="input-group">
+                        <label for="nombre">Nombre *</label>
+                        <input type="text" id="nombre">
+                    </div>
+                    <div class="input-group">
+                        <label for="apellido">Apellido *</label>
+                        <input type="text" id="apellido">
+                    </div>
+                </div>                
+    
+                <label for="">Email *</label>
+                <input type="email" >
+    
+                <label for="">Asunto </label>
+                <input type="text" >
+    
+                <label for="">Mensaje </label>
+                <textarea name=""></textarea>
+                <button type="submit" class="btn-main">Enviar</button>
+            </div>
+        </div>
+
+        <div class="container-img-contact">
+            <h1>También por aquí</h1>
+            <p>info@misitio.com <br>
+               Tel: +52-1-33-12345678
+            </p>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <p>Esperamos oír pronto de ti.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Política de Privacidad</p>
+        <p>©2024 Creado por Juan Pablo Grisales</p>
+    </footer>
     
 </body>
 </html>
